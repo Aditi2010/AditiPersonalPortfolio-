@@ -118,7 +118,7 @@ img {
 .welcome-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: start;
   width: auto;
   height: 95vh;
