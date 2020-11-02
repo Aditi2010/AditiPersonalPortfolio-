@@ -120,7 +120,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  width: 1000%;
+  width: auto;
   height: 95vh;
   background-color: aqua;
   background-image: url("hi1234.jpg");
