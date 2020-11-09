@@ -84,7 +84,7 @@ img {
   left: 0;
   width: 100%;
   background: hotpink;
-  box-shadow: 0 2px 0 blueviolet;
+  box-shadow: 0 10px 0 MediumSlateBlue;
   z-index: 10;
 }
 
@@ -118,12 +118,12 @@ img {
 .welcome-section {
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: start;
+  justify-content: right;
+  align-items: left;
   width: auto;
-  height: 95vh;
+  height: 105vh;
   background-color: aqua;
-  background-image: url("hi1234.jpg");
+  background-image: url("l.jpg");
   background-repeat: no-repeat;
   background-size: 1400px 700px;
 }
@@ -208,18 +208,18 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: lightgoldenrodyellow;
+  height: 200vh;
+  padding: 0 20rem;
+  background: rgb(255, 251, 195);
 }
 
 .contact-section-header > h2 {
   font-size: 6rem;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 8.75em) {
   .contact-section-header > h2 {
     font-size: 4rem;
   }
